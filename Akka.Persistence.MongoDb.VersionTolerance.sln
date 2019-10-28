@@ -1,0 +1,39 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29230.47
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "build", "build", "{79D71264-186B-4F62-8930-35DD9ECCAF3B}"
+	ProjectSection(SolutionItems) = preProject
+		build.cmd = build.cmd
+		build.fsx = build.fsx
+		build.ps1 = build.ps1
+		build.sh = build.sh
+	EndProjectSection
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Akka.Persistence.MongoDb.VersionTolerance", "src\Akka.Persistence.MongoDb.VersionTolerance\Akka.Persistence.MongoDb.VersionTolerance.csproj", "{D0159F15-0944-466A-9BDC-5FAE2F867BD7}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Akka.Persistence.MongoDb.VersionTolerance.Tests", "src\Akka.Persistence.MongoDb.VersionTolerance.Tests\Akka.Persistence.MongoDb.VersionTolerance.Tests.csproj", "{063F6413-A10F-42F1-882B-A8E5FEDA231B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D0159F15-0944-466A-9BDC-5FAE2F867BD7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D0159F15-0944-466A-9BDC-5FAE2F867BD7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D0159F15-0944-466A-9BDC-5FAE2F867BD7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D0159F15-0944-466A-9BDC-5FAE2F867BD7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{063F6413-A10F-42F1-882B-A8E5FEDA231B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{063F6413-A10F-42F1-882B-A8E5FEDA231B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{063F6413-A10F-42F1-882B-A8E5FEDA231B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{063F6413-A10F-42F1-882B-A8E5FEDA231B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B99E6BB8-642A-4A68-86DF-69567CBA700A}
+	EndGlobalSection
+EndGlobal

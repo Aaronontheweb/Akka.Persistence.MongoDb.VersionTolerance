@@ -14,7 +14,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\Petabridge.App\Petabridge.App.csproj" />
+    <ProjectReference Include="..\Akka.Persistence.MongoDb.VersionTolerance\Akka.Persistence.MongoDb.VersionTolerance.csproj" />
   </ItemGroup>
 
 </Project>
